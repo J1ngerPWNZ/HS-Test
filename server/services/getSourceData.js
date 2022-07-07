@@ -5,9 +5,6 @@ export default async function getSourceData({ page, per_page }) {
 
   return await fetch(url, {
     method: "GET",
-    headers: {
-      authorization: "token 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",
-    },
   })
     .then((res) => res.json())
     .then((data) => data);
