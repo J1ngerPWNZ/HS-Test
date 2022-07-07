@@ -1,0 +1,29 @@
+{
+  "name": "hs-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.5.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.19.0",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.7.0",
+    "graphql-playground-middleware-express": "^1.7.23",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^3.2.6",
+    "prettier": "^2.7.1",
+    "sequelize": "^6.21.2",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.3"
+  }
+}
